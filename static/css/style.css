@@ -1,0 +1,33 @@
+/* Custom styles */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Add a subtle hover effect to buttons */
+.bg-indigo-600:hover {
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Add a subtle shadow to cards */
+.shadow-lg {
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.shadow-lg:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Add smooth transitions */
+.transition-all {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Improve button hover states */
+.hover\:bg-indigo-700:hover {
+    transform: translateY(-1px);
+}
+
+/* Add a subtle gradient to the hero section */
+.bg-white {
+    background: linear-gradient(to bottom, #ffffff, #f9fafb);
+} 
